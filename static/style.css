@@ -1,6 +1,6 @@
 html, body {
     font-size: 18px;
-    color: #000000;
+    color: #6c767d;
     background-color: #ebf1f5;
     background-image: url("https://bu.dusays.com/2022/06/04/629b0a2a89425.png");
     background-attachment: fixed;
@@ -61,6 +61,23 @@ h2,
 h3,
 h4 {
     color: black;
+}
+
+/* 视频背景 */
+.kz-video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.kz-video video {
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    width: auto;
+    height: auto;
 }
 
 .card {
@@ -144,7 +161,7 @@ strike {
 }
 
 .photo-bg {
-    background-image: url(assets/background.jpg);
+    /* background-image: url(assets/background.jpg); */
     background-image: url(https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk456b0fj31hc0u0dxu.jpg);
     background-position: center;
     background-repeat: no-repeat;
